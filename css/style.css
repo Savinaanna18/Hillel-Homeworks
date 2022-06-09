@@ -9,3 +9,37 @@ img {
 html {
     font-family: "Roboto", sans-serif;
 }
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bg {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.img {
+    width: 120px;
+    height: 60px;
+}
+
+a {
+    margin-left: 20px;
+}
+
+.image {
+    width: 10px;
+    height: 10px;
+}
+
+.filter {
+    max-width: 40%;
+}
