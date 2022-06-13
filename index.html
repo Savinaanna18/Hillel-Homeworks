@@ -1,135 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hillel Homework №5</title>
-    <link rel="stylesheet" href="./fonts/font.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Homework5</title>
+    <style>
+        header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .header-bg {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        .header-nav {
+            display: flex;
+        }
+
+        .img {
+            width: 120px;
+            height: 60px;
+        }
+
+        a {
+            margin-left: 20px;
+        }
+
+        .image {
+            width: 10px;
+            height: 10px;
+        }
+
+        .filter {
+            max-width: 40%;
+        }
+    </style>
 </head>
 
 <body>
-    <section>
-        <div class="header-bg">
-            <header class="header">
-                <div class="header-left">
-                    <img class="img" src="/img/truck-car.png" alt="logo">
-                </div>
-                <div class="header-nav">
-                    <form>
-                        <div>
-                            <input type="text" placeholder="Search...">
-                            <button>
-                                <img class="image" src="/img/search.png" alt="">
-                            </button>
-                        </div>
-                    </form>
-                    <nav>
-                        <a href="/Doki/authorization.html" target="_blank">Авторизация</a>
-                        <a href="/Doki/registration.html" target="_blank">Регистрация</a>
-                    </nav>
-                </div>
-            </header>
-            <div>
-                <form class="filter">
-                    <p>
-                        <label>
-                            <span>Тип кузова:</span>
-                            <input type="text" name="body">
-                        </label>
-                    </p>
-                    <p>
-                        <label>
-                            <span>Марка авто:</span>
-                            <input type="text" name="brand" placeholder="например: volvo">
-                        </label>
-                    </p>
-                    <p>
-                        <label>
-                            <span>Тип топлива:</span>
-                            <input type="text" name="fuel">
-                        </label>
-                    </p>
-                    <p>
-                        <label>
-                            <span>Страна производитель:</span>
-                            <input type="text" name="fuel">
-                        </label>
-                    </p>
-                    <hr>
-                    <span>Состояние:</span>
-                    <p>
-                        <label>
-                            <input type="checkbox" name="condition" value="beaten">Битая
-                        </label>
-                    </p>
-                    <p>
-                        <label>
-                            <input type="checkbox" name="condition" value="credit">В кредите
-                        </label>
-                    </p>
-                    <p>
-                        <label>
-                            <input type="checkbox" name="condition" value="Uncleared">Нерастаможенная
-                        </label>
-                    </p>
-                    <hr>
-                    <p>
-                        <label>
-                            <span>
-                                Цена:
-                            </span>
-                            <span>2000$</span>
-                            <input type="range" name="price" min="2000" max="50000" step="500">
-                            <span>50000$</span>
-                        </label>
-                    </p>
-                    <p>
-                        <label>
-                            <span>
-                                Год выпуска:
-                            </span>
-                            <span>2010г.</span>
-                            <input type="range" name="price" min="2010" max="2022">
-                            <span> 2022г.</span>
-                        </label>
-                    </p>
-                    <p>
-                        <label>
-                            <span>Цвет</span>
-                            <input type="color" name="color">
-                        </label>
-                    </p>
-
-                    <p>
-                        <label>
-                            <span>Тип коробки передач:</span>
-                            <select name="cars">
-                                <option value="mechanical">Механическая</option>
-                                <option value="automatic" selected>Автоматическая</option>
-                                <option value="robotic">Роботизированная</option>
-                                <option value="variable">Вариативная</option>
-                            </select>
-                        </label>
-                    </p>
-                    <p>
-                        <label>
-                            <span>Комфорт:</span>
-                            <select name="Comfort">
-                                <option value="#" selected disabled>Выбрать</option>
-                                <option value="Luke">Люк</option>
-                                <option value="salon">Кожаный салон</option>
-                                <option value="conditioner">Кондиционер</option>
-                            </select>
-                        </label>
-                    </p>
-                    <input type="submit" value="Submit">
-                </form>
+    <div class="header-bg">
+        <header class="header">
+            <div class="header-left">
+                <img class="img" src="./img/truck-car.png" alt="logo">
             </div>
+            <div class="header-nav">
+                <form action="https://fom.in.ua/echo">
+                    <label>
+                        <input type="text" placeholder="Search...">
+                        <button>
+                            <img class="image" src="./img/search.png" alt="">
+                        </button>
+                    </label>
+                </form>
+                <nav>
+                    <a href="/Doki/authorization.html" target="_blank">Авторизация</a>
+                    <a href="/Doki/registration.html" target="_blank">Регистрация</a>
+                </nav>
+            </div>
+        </header>
+        <div>
+            <form class="filter" action="https://fom.in.ua/echo">
+                <p>
+                    <label>
+                        <span>Тип кузова:</span>
+                        <input type="text" name="body">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span>Марка авто:</span>
+                        <input type="text" name="brand" placeholder="например: volvo">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span>Тип топлива:</span>
+                        <input type="text" name="fuel">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span>Страна производитель:</span>
+                        <input type="text" name="fuel">
+                    </label>
+                </p>
+                <hr>
+                <span>Состояние:</span>
+                <p>
+                    <label>
+                        <input type="checkbox" name="condition" value="beaten">Битая
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" name="condition" value="credit">В кредите
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" name="condition" value="Uncleared">Нерастаможенная
+                    </label>
+                </p>
+                <hr>
+                <p>
+                    <label>
+                        <span>
+                            Цена:
+                        </span>
+                        <span>2000$</span>
+                        <input type="range" name="price" min="2000" max="50000" step="500">
+                        <span>50000$</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span>
+                            Год выпуска:
+                        </span>
+                        <span>2010г.</span>
+                        <input type="range" name="price" min="2010" max="2022">
+                        <span> 2022г.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span>Цвет</span>
+                        <input type="color" name="color">
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        <span>Тип коробки передач:</span>
+                        <select name="cars">
+                            <option value="mechanical">Механическая</option>
+                            <option value="automatic" selected>Автоматическая</option>
+                            <option value="robotic">Роботизированная</option>
+                            <option value="variable">Вариативная</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span>Комфорт:</span>
+                        <select name="Comfort">
+                            <option value="#" selected disabled>Выбрать</option>
+                            <option value="Luke">Люк</option>
+                            <option value="salon">Кожаный салон</option>
+                            <option value="conditioner">Кондиционер</option>
+                        </select>
+                    </label>
+                </p>
+                <input type="submit" value="Submit">
+            </form>
         </div>
-    </section>
+    </div>
 </body>
 
 </html>
