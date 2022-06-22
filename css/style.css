@@ -3,9 +3,64 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    font-family: 'TTNorms', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212121;;
+    line-height: 1.7;
+}
+
 img {
     max-width: 100%;
 }
-html {
-    font-family: "Roboto", sans-serif;
+
+.container {
+    width: 100%;
+    max-width: 1110px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0 auto;
+}
+
+.card {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+    padding: 15px;
+    display: inline-block;
+    margin: 15px;
+}
+
+.card-title {
+    color: #7455b3;
+    margin: 10px 0;
+}
+  
+.price {
+    font-size: 38px;
+    margin: 25px 0;
+}
+  
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background: #7455b3;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+}
+  
+.card button:hover {
+    background: #f4db79;
+}
+
+.card-text {
+    font-size: 20px;
+   margin-bottom: 15px;
 }

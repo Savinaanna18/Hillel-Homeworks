@@ -1,14 +1,15 @@
 @font-face {
-  font-family: 'Roboto';
-  src: url(./Roboto-Regular.woff2) format('woff2'),
-       url(./Roboto-Regular.woff) format('woff');
-  font-weight: 400;
-  font-style: normal;
+	font-family: 'TTNorms';
+	src: url('../fonts/TTNormsRegular.eot');
+	src: local('вє'), url('../fonts/TTNormsRegular.woff') format('woff'), url('../fonts/TTNormsRegular.ttf') format('truetype'), url('../fonts/TTNormsRegular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
 }
+
 @font-face {
-  font-family: 'Roboto';
-  src: url(./Roboto-Bold.woff2) format('woff2'),
-       url(./Roboto-Bold.woff) format('woff');
-  font-weight: 700;
-  font-style: normal;
+	font-family: 'TTNorms';
+	src: url('../fonts/TTNormsBold.eot');
+	src: local('вє'), url('../fonts/TTNormsBold.woff') format('woff'), url('../fonts/TTNormsBold.ttf') format('truetype'), url('../fonts/TTNormsBold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
 }
