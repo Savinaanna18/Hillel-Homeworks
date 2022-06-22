@@ -7,5 +7,53 @@ img {
     max-width: 100%;
 }
 html {
-    font-family: "Roboto", sans-serif;
-}
+    table {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid black;
+        background: rgb(225, 225, 150);
+     }
+    
+     div>h1 {
+        color: rgb(183, 80, 235);
+    }
+    
+     #myId {
+         color: rgb(50, 50, 242);
+     }
+    
+     #myI.clas {
+         color: rgb(7, 156, 156);
+     }
+    
+     input[type] {
+         background: rgb(240, 177, 177);
+     }
+    
+     [id="inputId"] {
+         border-radius: 10px;
+     }
+    
+     a[href^="#"] {
+        color: rgb(39, 137, 32);
+    }
+    
+    a[href*="facebook"] {
+        color: rgb(237, 75, 16);
+    }
+    
+    .logo-bg:hover {
+        color: rgb(35, 168, 124);
+    }
+    
+    .logo-bg {
+        color: rgb(219, 39, 39);
+     }
+    
+    .logo, .clas {
+         font-size: 30px;
+     }
+    
+    
+    
